@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration>
+	    <person role="leader">
+	        <firstname>Max</firstname>
+	    	<lastname>Musterman</lastname>
+	    	<email>m.musterman@gmail.com</email>
+	    	<birthday>01.02.1980</birthday>
+	    	<experience>Profi</experience>
+	    	<drums>vorhanden</drums>
+	    </person>
+	    <person role="member">
+	        <firstname>Theo</firstname>
+	    	<lastname>Musterman</lastname>
+	    	<email>t.musterman@gmail.com</email>
+	    	<birthday>02.01.1982</birthday>
+	    	<experience>Amateur</experience>
+	    	<drums>nicht vorhanden</drums>
+	    </person>
+	    <note>Platz am Fenster</note>
+</registration>

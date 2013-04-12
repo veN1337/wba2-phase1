@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe3d.xsd">
+    <recipe recipe_id="1">
+        <title>Nußecken</title>
+        <difficulty>normal</difficulty>
+        <workingtime>ca. 45 Minuten</workingtime>
+        <kcal>0</kcal>
+        <ingredients>
+            <ingredient amount="130" unit="Gramm">Butter oder Margarine</ingredient>
+            <ingredient amount="130" unit="Gramm">Zucker</ingredient>
+            <ingredient amount="2" unit="">Eier</ingredient>
+            <ingredient amount="300" unit="Gramm">Mehl</ingredient>
+            <ingredient amount="1" unit="Teelöffel">Backpulver</ingredient>
+        </ingredients>
+        <preperation>
+            <step step_id="1">Knetteig bereiten und auf einem gefetteten Backblech ausrollen.</step>
+            <step step_id="2">Aprikosenkonfitüre auf den ausgerollten Teig streichen.</step>
+            <step step_id="3">Butter, Zucker und Vanillinzucker erhitzen, bis der Zucker sich gelöst hat.</step>
+            <step step_id="4">Nüsse zusammen mit Wasser unter die Butter-Zucker-Masse rühren.</step>
+            <step step_id="5">Auf den Teig geben.</step>
+        </preperation>
+        <comments>
+            <comment comment_id="1">Super. Schmeckt gut!</comment>
+            <comment comment_id="2">Naja...</comment>
+        </comments>
+    </recipe>
+    <recipe recipe_id="2">
+        <title>Butter mit Zucker</title>
+        <difficulty>normal</difficulty>
+        <workingtime>ca. 45 Minuten</workingtime>
+        <kcal>0</kcal>
+        <ingredients>
+            <ingredient amount="130" unit="Gramm">Butter oder Margarine</ingredient>
+            <ingredient amount="130" unit="Gramm">Zucker</ingredient>
+        </ingredients>
+        <preperation>
+            <step step_id="1">Alles zusammen mischen.</step>
+        </preperation>
+    </recipe>
+</recipes>

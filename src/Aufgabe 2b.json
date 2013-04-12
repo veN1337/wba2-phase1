@@ -1,0 +1,25 @@
+{
+  "registration": {
+    "person": [
+      {
+        "-role": "leader",
+        "firstname": "Max",
+        "lastname": "Musterman",
+        "email": "m.musterman@gmail.com",
+        "birthday": "01.02.1980",
+        "experience": "Profi",
+        "drums": "vorhanden"
+      },
+      {
+        "-role": "member",
+        "firstname": "Theo",
+        "lastname": "Musterman",
+        "email": "t.musterman@gmail.com",
+        "birthday": "02.01.1982",
+        "experience": "Amateur",
+        "drums": "nicht vorhanden"
+      }
+    ],
+    "note": "Platz am Fenster"
+  }
+}

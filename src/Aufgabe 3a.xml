@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <title>Lenchen’s Schokoladenkuchen</title>
+    <workingtime>zirka 1 Stunde</workingtime>
+    <difficulty>normal</difficulty>
+    <kcal>295</kcal>
+    <ingredients>
+        <ingredient amount="200" unit="Gramm">Butter</ingredient>
+        <ingredient amount="200" unit="Gramm">Zucker</ingredient>
+        <ingredient amount="200" unit="Gramm">Schockolade oder Blockschokolade</ingredient>
+        <ingredient amount="120" unit="Gramm">Mehl</ingredient>
+        <ingredient amount="1/2" unit="Teelöffel">Backpulver</ingredient>
+        <ingredient amount="1" unit="Paket">Vanillezucker</ingredient>
+        <ingredient amount="4" unit="Stück">Eier</ingredient>
+    </ingredients>
+    <preperation>
+        <step step_id="1">Butter und Schokolade im Wasserbad schmelzen.</step>
+        <step step_id="2">Eier trennen.</step>
+        <step step_id="3">Eiweiß steif schlagen.</step>
+        <step step_id="4">Eigelbe, Zucker und Vanillezucker verrühren.</step>
+        <step step_id="5">Geschmolzene Butter-Schokomasse hinzufügen und mischen.</step>
+        <step step_id="6">Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben.</step>
+        <step step_id="7">In eine gut gefettete Form geben.</step>
+        <step step_id="8">Bei 180°Grad 40 – 50 Minuten backen.</step> 
+    </preperation>
+    <comments>
+        <comment comment_id="1">Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept.</comment>
+    </comments>
+</recipe>

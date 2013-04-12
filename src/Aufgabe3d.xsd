@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xsd:element name="title" type="xsd:string"></xsd:element>
+    <xsd:element name="workingtime" type="xsd:string"></xsd:element>
+    <xsd:element name="difficulty" type="xsd:string"></xsd:element>
+    <xsd:element name="kcal" type="xsd:int"></xsd:element>
+
+    <xsd:attribute name="recipe_id" type="xsd:ID"></xsd:attribute>
+    <xsd:attribute name="step_id" type="xsd:ID"></xsd:attribute>
+    <xsd:attribute name="comment_id" type="xsd:ID"></xsd:attribute>
+    <xsd:attribute name="amount" type="xsd:int"></xsd:attribute>
+    <xsd:attribute name="unit" type="xsd:string"></xsd:attribute>
+
+    <xsd:element name="recipes">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="recipe" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="recipe">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="title"></xsd:element>
+    			<xsd:element ref="difficulty"></xsd:element>
+    			<xsd:element ref="workingtime"></xsd:element>
+    			<xsd:element ref="kcal"></xsd:element>
+    			<xsd:element ref="ingredients"></xsd:element>
+    			<xsd:element ref="preperation"></xsd:element>
+    			<xsd:element ref="comments"></xsd:element>
+    		</xsd:sequence>
+    		<xsd:attribute ref="recipe_id" use="required"></xsd:attribute>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="ingredients">
+    	<xsd:complexType>
+    		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+    			<xsd:element ref="ingredient" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="ingredient">
+    	<xsd:complexType>
+    		<xsd:simpleContent>
+    			<xsd:extension base="xsd:string">
+    				<xsd:attribute ref="amount" use="required"></xsd:attribute>
+    				<xsd:attribute ref="unit" use="required"></xsd:attribute>
+    			</xsd:extension>
+    		</xsd:simpleContent>    		
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="step">
+    	<xsd:complexType>
+    		<xsd:simpleContent>
+    			<xsd:extension base="xsd:string">
+    				<xsd:attribute ref="step_id" use="required"></xsd:attribute>
+    			</xsd:extension>
+    		</xsd:simpleContent>
+    	</xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="preperation">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="step" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+
+    <xsd:element name="comments">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="comment" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="comment">
+    	<xsd:complexType>
+    		<xsd:simpleContent>
+    			<xsd:extension base="xsd:string">
+    				<xsd:attribute ref="comment_id" use="required"></xsd:attribute>
+    			</xsd:extension>
+    		</xsd:simpleContent>
+    	</xsd:complexType>
+    </xsd:element>
+</xsd:schema>
